@@ -18,7 +18,6 @@
 		4C0D93F717A9B36100B82D25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D93F617A9B36100B82D25 /* Default-568h@2x.png */; };
 		4C0D940F17A9B66700B82D25 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D940E17A9B66700B82D25 /* RecipesViewController.m */; };
 		4C0D941517A9B86D00B82D25 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D941417A9B86D00B82D25 /* Recipe.m */; };
-		4C0D941917A9C06E00B82D25 /* RecipeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D941817A9C06E00B82D25 /* RecipeList.m */; };
 		4C0D941B17A9C4B800B82D25 /* steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D941A17A9C4B800B82D25 /* steak.jpg */; };
 		4C0D941E17A9C8C600B82D25 /* DemoRecipeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D941D17A9C8C600B82D25 /* DemoRecipeList.m */; };
 		4C0D942217A9CDB600B82D25 /* fajitas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D942117A9CDB600B82D25 /* fajitas.jpg */; };
@@ -27,8 +26,6 @@
 		4C2C984317AAC86E0075DD0A /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984117AAC86E0075DD0A /* ImageViewController.xib */; };
 		4C2C984517AACE020075DD0A /* veggies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984417AACE020075DD0A /* veggies.jpg */; };
 		4C2C984717AAD1300075DD0A /* lasagna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984617AAD1300075DD0A /* lasagna.jpg */; };
-		4C2C984917AAD8430075DD0A /* Food-Network-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */; };
-		4C2C984B17AAD8470075DD0A /* Food-Network-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */; };
 		4C2C984E17AAE3270075DD0A /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C984D17AAE3270075DD0A /* StarView.m */; };
 		4C2D853717A9E2A4007CE978 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D853517A9E2A4007CE978 /* RecipeDetailViewController.m */; };
 		4C2D853817A9E2A4007CE978 /* RecipeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D853617A9E2A4007CE978 /* RecipeDetailViewController.xib */; };
@@ -36,6 +33,9 @@
 		4C2D853D17A9F339007CE978 /* IngredientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D853B17A9F339007CE978 /* IngredientsViewController.xib */; };
 		4C2D854117A9F618007CE978 /* DirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D853F17A9F618007CE978 /* DirectionsViewController.m */; };
 		4C2D854217A9F618007CE978 /* DirectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D854017A9F618007CE978 /* DirectionsViewController.xib */; };
+		4CEDF04917AB026F0086FE7F /* Food-Network-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDF04717AB026F0086FE7F /* Food-Network-Logo.png */; };
+		4CEDF04A17AB026F0086FE7F /* Food-Network-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDF04817AB026F0086FE7F /* Food-Network-Logo@2x.png */; };
+		4CEDF04D17AB02C00086FE7F /* RecipeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDF04C17AB02C00086FE7F /* RecipeList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +56,6 @@
 		4C0D940E17A9B66700B82D25 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
 		4C0D941317A9B86D00B82D25 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Model/Recipe.h; sourceTree = "<group>"; };
 		4C0D941417A9B86D00B82D25 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipe.m; path = Model/Recipe.m; sourceTree = "<group>"; };
-		4C0D941717A9C06E00B82D25 /* RecipeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeList.h; sourceTree = "<group>"; };
-		4C0D941817A9C06E00B82D25 /* RecipeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeList.m; sourceTree = "<group>"; };
 		4C0D941A17A9C4B800B82D25 /* steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steak.jpg; sourceTree = "<group>"; };
 		4C0D941C17A9C8C600B82D25 /* DemoRecipeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoRecipeList.h; path = Model/DemoRecipeList.h; sourceTree = "<group>"; };
 		4C0D941D17A9C8C600B82D25 /* DemoRecipeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoRecipeList.m; path = Model/DemoRecipeList.m; sourceTree = "<group>"; };
@@ -68,8 +66,6 @@
 		4C2C984117AAC86E0075DD0A /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		4C2C984417AACE020075DD0A /* veggies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veggies.jpg; sourceTree = "<group>"; };
 		4C2C984617AAD1300075DD0A /* lasagna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lasagna.jpg; sourceTree = "<group>"; };
-		4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Network-Logo@2x.png"; path = "../Food-Network-Logo@2x.png"; sourceTree = "<group>"; };
-		4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Network-Logo.png"; path = "../Food-Network-Logo.png"; sourceTree = "<group>"; };
 		4C2C984C17AAE3270075DD0A /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
 		4C2C984D17AAE3270075DD0A /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
 		4C2D853417A9E2A4007CE978 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
@@ -81,6 +77,10 @@
 		4C2D853E17A9F617007CE978 /* DirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionsViewController.h; sourceTree = "<group>"; };
 		4C2D853F17A9F618007CE978 /* DirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionsViewController.m; sourceTree = "<group>"; };
 		4C2D854017A9F618007CE978 /* DirectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectionsViewController.xib; sourceTree = "<group>"; };
+		4CEDF04717AB026F0086FE7F /* Food-Network-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food-Network-Logo.png"; sourceTree = "<group>"; };
+		4CEDF04817AB026F0086FE7F /* Food-Network-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Food-Network-Logo@2x.png"; sourceTree = "<group>"; };
+		4CEDF04B17AB02C00086FE7F /* RecipeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeList.h; path = Model/RecipeList.h; sourceTree = "<group>"; };
+		4CEDF04C17AB02C00086FE7F /* RecipeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeList.m; path = Model/RecipeList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +154,8 @@
 		4C0D93E717A9B36100B82D25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */,
-				4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */,
+				4CEDF04717AB026F0086FE7F /* Food-Network-Logo.png */,
+				4CEDF04817AB026F0086FE7F /* Food-Network-Logo@2x.png */,
 				4C2C984617AAD1300075DD0A /* lasagna.jpg */,
 				4C2C984417AACE020075DD0A /* veggies.jpg */,
 				4C0D942317A9CEF200B82D25 /* pasta.jpg */,
@@ -175,10 +175,10 @@
 		4C0D941617A9B88300B82D25 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4CEDF04B17AB02C00086FE7F /* RecipeList.h */,
+				4CEDF04C17AB02C00086FE7F /* RecipeList.m */,
 				4C0D941317A9B86D00B82D25 /* Recipe.h */,
 				4C0D941417A9B86D00B82D25 /* Recipe.m */,
-				4C0D941717A9C06E00B82D25 /* RecipeList.h */,
-				4C0D941817A9C06E00B82D25 /* RecipeList.m */,
 				4C0D941C17A9C8C600B82D25 /* DemoRecipeList.h */,
 				4C0D941D17A9C8C600B82D25 /* DemoRecipeList.m */,
 			);
@@ -250,8 +250,8 @@
 				4C2C984317AAC86E0075DD0A /* ImageViewController.xib in Resources */,
 				4C2C984517AACE020075DD0A /* veggies.jpg in Resources */,
 				4C2C984717AAD1300075DD0A /* lasagna.jpg in Resources */,
-				4C2C984917AAD8430075DD0A /* Food-Network-Logo@2x.png in Resources */,
-				4C2C984B17AAD8470075DD0A /* Food-Network-Logo.png in Resources */,
+				4CEDF04917AB026F0086FE7F /* Food-Network-Logo.png in Resources */,
+				4CEDF04A17AB026F0086FE7F /* Food-Network-Logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +266,13 @@
 				4C0D93F117A9B36100B82D25 /* Aug1AppDelegate.m in Sources */,
 				4C0D940F17A9B66700B82D25 /* RecipesViewController.m in Sources */,
 				4C0D941517A9B86D00B82D25 /* Recipe.m in Sources */,
-				4C0D941917A9C06E00B82D25 /* RecipeList.m in Sources */,
 				4C0D941E17A9C8C600B82D25 /* DemoRecipeList.m in Sources */,
 				4C2D853717A9E2A4007CE978 /* RecipeDetailViewController.m in Sources */,
 				4C2D853C17A9F339007CE978 /* IngredientsViewController.m in Sources */,
 				4C2D854117A9F618007CE978 /* DirectionsViewController.m in Sources */,
 				4C2C984217AAC86E0075DD0A /* ImageViewController.m in Sources */,
 				4C2C984E17AAE3270075DD0A /* StarView.m in Sources */,
+				4CEDF04D17AB02C00086FE7F /* RecipeList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
