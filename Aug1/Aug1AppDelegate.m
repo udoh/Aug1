@@ -18,7 +18,8 @@
     // Override point for customization after application launch.
     
     RecipesViewController *recipesViewController = [[RecipesViewController alloc] init];
-    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:recipesViewController];    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:recipesViewController];
+    nc.navigationBar.barStyle = UIBarStyleBlackTranslucent;
     self.window.rootViewController = nc;
 
     [self.window makeKeyAndVisible];

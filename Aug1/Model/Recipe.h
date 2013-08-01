@@ -22,7 +22,6 @@ typedef enum {
 @property (nonatomic, copy) NSString *authorName;
 @property (nonatomic) NSTimeInterval prepTime;
 @property (nonatomic) NSTimeInterval cookTime;
-@property (nonatomic) NSTimeInterval inactiveTime;
 @property (nonatomic, readonly) NSTimeInterval totalTime;
 @property (nonatomic) float rating;
 @property (nonatomic) float numberOfServings;

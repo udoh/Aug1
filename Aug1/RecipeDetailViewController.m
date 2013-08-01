@@ -9,6 +9,7 @@
 #import "RecipeDetailViewController.h"
 #import "IngredientsViewController.h"
 #import "DirectionsViewController.h"
+#import "ImageViewController.h"
 #import "Recipe.h"
 
 @interface RecipeDetailViewController ()
@@ -41,6 +42,10 @@
 
 - (IBAction)showImage:(UIButton *)sender
 {
+    ImageViewController *imgvc = [[ImageViewController alloc] init];
+    [imgvc setRecipe:self.recipe];
+    
+    [self.navigationController pushViewController:imgvc animated:YES];
 }
 
 - (void)viewDidLoad
@@ -53,15 +58,46 @@
 {
     [super viewWillAppear:animated];
     
+
+    NSString *level;
+    
+    switch (self.recipe.difficultyLevel) {
+        case 0:
+            level = @"Easy";
+            break;
+            
+        case 1:
+            level = @"Intermediate";
+            
+        case 2:
+            level = @"Advanced";
+            
+        case 3:
+            level = @"Professional";
+            
+        default:
+            break;
+    }
+    
+    
     recipeTitleLabel.text = self.recipe.recipeName;
     authorLabel.text = [NSString stringWithFormat:@"By: %@", self.recipe.authorName ];
     recipeImage.image = self.recipe.recipeImage;
-    totalTimeLabel.text = [NSString stringWithFormat:@"%gm",self.recipe.totalTime/60];
-    prepTimeLabel.text = [NSString stringWithFormat:@"%gm", self.recipe.prepTime/60];
-    inactiveTimeLabel.text = [NSString stringWithFormat:@"%gm", self.recipe.inactiveTime/60];
-    cookTimeLabel.text = [NSString stringWithFormat:@"%gm", self.recipe.cookTime/60];
-    levelLabel.text = [NSString stringWithFormat:@"%d", self.recipe.difficultyLevel];
+    totalTimeLabel.text = [self stringFromTimeInterval:self.recipe.totalTime];
+    prepTimeLabel.text = [self stringFromTimeInterval:self.recipe.prepTime];
+    cookTimeLabel.text = [self stringFromTimeInterval:self.recipe.cookTime];
+    yieldLabel.text = [NSString stringWithFormat:@"For %g servings (Level: %@)", self.recipe.numberOfServings, level];
+    ratingView.rating = self.recipe.rating;
+}
 
+- (NSString *)stringFromTimeInterval:(NSTimeInterval)interval {
+    NSInteger ti = (NSInteger)interval;
+    //NSInteger seconds = ti % 60;
+    NSInteger minutes = (ti / 60) % 60;
+    NSInteger hours = (ti / 3600);
+    NSString *result = (hours > 0) ? ([NSString stringWithFormat:@"%ih %im", hours, minutes]) : [NSString stringWithFormat:@"%im", minutes];
+    
+    return result;
 }
 
 @end

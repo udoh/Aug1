@@ -24,7 +24,7 @@
 
 - (NSTimeInterval)totalTime
 {
-    return self.prepTime + self.cookTime + self.inactiveTime;
+    return self.prepTime + self.cookTime;
 }
 
 - (UIImage *)recipeThumbnail

@@ -23,6 +23,13 @@
 		4C0D941E17A9C8C600B82D25 /* DemoRecipeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D941D17A9C8C600B82D25 /* DemoRecipeList.m */; };
 		4C0D942217A9CDB600B82D25 /* fajitas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D942117A9CDB600B82D25 /* fajitas.jpg */; };
 		4C0D942417A9CEF200B82D25 /* pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D942317A9CEF200B82D25 /* pasta.jpg */; };
+		4C2C984217AAC86E0075DD0A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C984017AAC86E0075DD0A /* ImageViewController.m */; };
+		4C2C984317AAC86E0075DD0A /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984117AAC86E0075DD0A /* ImageViewController.xib */; };
+		4C2C984517AACE020075DD0A /* veggies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984417AACE020075DD0A /* veggies.jpg */; };
+		4C2C984717AAD1300075DD0A /* lasagna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984617AAD1300075DD0A /* lasagna.jpg */; };
+		4C2C984917AAD8430075DD0A /* Food-Network-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */; };
+		4C2C984B17AAD8470075DD0A /* Food-Network-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */; };
+		4C2C984E17AAE3270075DD0A /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C984D17AAE3270075DD0A /* StarView.m */; };
 		4C2D853717A9E2A4007CE978 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D853517A9E2A4007CE978 /* RecipeDetailViewController.m */; };
 		4C2D853817A9E2A4007CE978 /* RecipeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D853617A9E2A4007CE978 /* RecipeDetailViewController.xib */; };
 		4C2D853C17A9F339007CE978 /* IngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D853A17A9F339007CE978 /* IngredientsViewController.m */; };
@@ -56,6 +63,15 @@
 		4C0D941D17A9C8C600B82D25 /* DemoRecipeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoRecipeList.m; path = Model/DemoRecipeList.m; sourceTree = "<group>"; };
 		4C0D942117A9CDB600B82D25 /* fajitas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fajitas.jpg; sourceTree = "<group>"; };
 		4C0D942317A9CEF200B82D25 /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta.jpg; sourceTree = "<group>"; };
+		4C2C983F17AAC86E0075DD0A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		4C2C984017AAC86E0075DD0A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		4C2C984117AAC86E0075DD0A /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		4C2C984417AACE020075DD0A /* veggies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veggies.jpg; sourceTree = "<group>"; };
+		4C2C984617AAD1300075DD0A /* lasagna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lasagna.jpg; sourceTree = "<group>"; };
+		4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Network-Logo@2x.png"; path = "../Food-Network-Logo@2x.png"; sourceTree = "<group>"; };
+		4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Network-Logo.png"; path = "../Food-Network-Logo.png"; sourceTree = "<group>"; };
+		4C2C984C17AAE3270075DD0A /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		4C2C984D17AAE3270075DD0A /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
 		4C2D853417A9E2A4007CE978 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
 		4C2D853517A9E2A4007CE978 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 		4C2D853617A9E2A4007CE978 /* RecipeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetailViewController.xib; sourceTree = "<group>"; };
@@ -124,6 +140,11 @@
 				4C2D853E17A9F617007CE978 /* DirectionsViewController.h */,
 				4C2D853F17A9F618007CE978 /* DirectionsViewController.m */,
 				4C2D854017A9F618007CE978 /* DirectionsViewController.xib */,
+				4C2C983F17AAC86E0075DD0A /* ImageViewController.h */,
+				4C2C984017AAC86E0075DD0A /* ImageViewController.m */,
+				4C2C984117AAC86E0075DD0A /* ImageViewController.xib */,
+				4C2C984C17AAE3270075DD0A /* StarView.h */,
+				4C2C984D17AAE3270075DD0A /* StarView.m */,
 				4C0D941617A9B88300B82D25 /* Model */,
 				4C0D93E717A9B36100B82D25 /* Supporting Files */,
 			);
@@ -133,6 +154,10 @@
 		4C0D93E717A9B36100B82D25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C2C984A17AAD8470075DD0A /* Food-Network-Logo.png */,
+				4C2C984817AAD8430075DD0A /* Food-Network-Logo@2x.png */,
+				4C2C984617AAD1300075DD0A /* lasagna.jpg */,
+				4C2C984417AACE020075DD0A /* veggies.jpg */,
 				4C0D942317A9CEF200B82D25 /* pasta.jpg */,
 				4C0D942117A9CDB600B82D25 /* fajitas.jpg */,
 				4C0D941A17A9C4B800B82D25 /* steak.jpg */,
@@ -222,6 +247,11 @@
 				4C2D853817A9E2A4007CE978 /* RecipeDetailViewController.xib in Resources */,
 				4C2D853D17A9F339007CE978 /* IngredientsViewController.xib in Resources */,
 				4C2D854217A9F618007CE978 /* DirectionsViewController.xib in Resources */,
+				4C2C984317AAC86E0075DD0A /* ImageViewController.xib in Resources */,
+				4C2C984517AACE020075DD0A /* veggies.jpg in Resources */,
+				4C2C984717AAD1300075DD0A /* lasagna.jpg in Resources */,
+				4C2C984917AAD8430075DD0A /* Food-Network-Logo@2x.png in Resources */,
+				4C2C984B17AAD8470075DD0A /* Food-Network-Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +271,8 @@
 				4C2D853717A9E2A4007CE978 /* RecipeDetailViewController.m in Sources */,
 				4C2D853C17A9F339007CE978 /* IngredientsViewController.m in Sources */,
 				4C2D854117A9F618007CE978 /* DirectionsViewController.m in Sources */,
+				4C2C984217AAC86E0075DD0A /* ImageViewController.m in Sources */,
+				4C2C984E17AAE3270075DD0A /* StarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
